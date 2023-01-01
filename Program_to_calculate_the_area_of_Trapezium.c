@@ -6,5 +6,5 @@ int main()
     float area,s;
     s=((a+b)*c)/2.0;
     area=(s*(s-a)*(s-b)*(s-c));
-    printf("%0.4f",s);
+    printf("%.4f",s);
 }
