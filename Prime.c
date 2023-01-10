@@ -6,9 +6,10 @@ int main()
     for(i=1;i<=n;i++)
     {
         if(n%i==0)
-        {
-            count=count+1;
-        }
+    {
+        count=count+1;
+    }
+        
     }
     if(count==2)
     {
@@ -18,4 +19,5 @@ int main()
     {
         printf("Not Prime");
     }
+    
 }
