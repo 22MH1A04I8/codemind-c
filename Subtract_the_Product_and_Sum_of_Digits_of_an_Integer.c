@@ -11,4 +11,5 @@ int main()
         s+=r;
     }
     printf("%d",p-s);
+    
 }
